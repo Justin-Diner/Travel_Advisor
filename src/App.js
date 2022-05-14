@@ -10,7 +10,7 @@ import Map from './components/Map/Map';
 const App = () => {
 	const [places, setPlaces] = useState([]);
 
-	const [coords, setCoords] = useState({ lat: 0, lng: 0});
+	const [coords, setCoords] = useState({ lat: 40.74, lng: -73.98});
 	const [bounds, setBounds] = useState([]);
 
 	const [childClicked, setChildClicked] = useState(null);

@@ -10,8 +10,7 @@ import { useState } from 'react';
 const Map = ({ coords, setCoords, setBounds, places, setChildClicked }) => {
 	const classes = useStyles(); 
 	const isDesktop = useMediaQuery('(min-width: 600px)');
-	useState [setChildClicked] = useState(null);
-
+	useState[setChildClicked] = useState(null);
 
 	return (
 		<div className={classes.mapContainer}>
